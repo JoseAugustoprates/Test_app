@@ -62,6 +62,10 @@ class _MyHomePageState extends State<MyHomePage> {
                   ElevatedButton(
                     onPressed: () {},
                     child: Text('Botão'),
+                    style: ButtonStyle(
+                      backgroundColor:
+                          MaterialStateProperty.all(Colors.yellowAccent),
+                    ),
                   ),
                   Divider(),
                 ],
