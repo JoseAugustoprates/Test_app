@@ -59,6 +59,10 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
                   Text('Vezes'),
                   Text('Total de todos os cliques: $_counter'),
+                  ElevatedButton(
+                    onPressed: () {},
+                    child: Text('Botão'),
+                  ),
                   Divider(),
                 ],
               ),
